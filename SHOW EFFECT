@@ -1,0 +1,19 @@
+<!DOCTYPE HTML><HTML><HEAD>
+<SCRIPT type="text/javascript" src="jquery-1.8.3.js"></SCRIPT>
+<SCRIPT type="text/javascript">
+$(document).ready(function(){
+$(".view").click(function(){
+$("h3").show(2000);
+});
+$(".conceal").click(function(){
+$("h3").hide();
+});
+});
+</SCRIPT>
+</HEAD>
+<BODY>
+<H3> This text can be hidden and shown. </H3> <BR>
+<BUTTON class="view">Click to view</BUTTON>
+<BUTTON class="conceal">Click to hide</BUTTON>
+</BODY>
+</HTML>
