@@ -1,0 +1,40 @@
+	<!doctype html>
+	<html>
+	<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+	$("#pt").click(function() {
+		$("p").prepend("prepend text");		
+	});
+
+	$("#at").click(function() {
+	$("p").append("append text");
+	});
+
+	$(".aft").click(function() {
+	$("p").after("this is newly inserted text");
+	});
+
+	$("#rt").click(function() {
+	$("p").remove();
+	});
+
+	$("#ht").click(function() {
+	$("p").hide(7000);
+	});
+	});
+	</script>
+	</head>
+	<body>	
+	<p> this is paragraph1 text </p>
+	<button id="pt">prepend text </button>
+	<button id="at">append text </button>
+	<button class="aft">after text </button>
+	<button id="rt">remove text </button>
+	<button id="ht">hide text </button>
+
+
+	</body>
+	</html>

@@ -1,0 +1,23 @@
+<!doctype html>	
+<html>
+	<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+	function test()
+	{
+	var v1=document.getElementById("tb1").value;
+		
+	document.getElementById("result").innerHTML="You Entered Text is:"+v1;
+	}
+	</script>
+	</head>
+	<body>
+	<form>
+Enter Your Text: <input type="text" id="tb1"> 
+<input type="button" onclick="test()" value="clickme">
+<br><br><br>
+<div id="result">.......</div>
+
+	</form>
+	</body>
+	</html>

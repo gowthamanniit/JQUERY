@@ -1,0 +1,40 @@
+	<!doctype html>
+	<html>
+	<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$("#but").click(function(){
+	$("#div1").remove(""); 
+	// particular only remove
+	//$("#div1").empty(); //  all clear
+	});	
+	});
+</script>
+</head>
+<body>	
+<h1> remove vs empty </h1>
+	<button id="but"> clickme </button>
+	<br><br>
+	<div id="div1" style="background-color:red;">
+	<p class="p1"> this is paragraph1</p>
+	<p> this is paragraph2</p>
+	<p> this is paragraph3</p>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<!doctype html>	
+<html>
+	<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+	function test()
+	{
+	var i,ans="",sum=0;
+	var a=new Array(10,30,40,50,70,40);	
+	for(i=0;i<6;i++)
+	{
+	ans=ans+a[i]+"-->";
+	sum=sum+a[i];
+	}
+	document.getElementById("res").innerHTML=ans+"="+sum;
+	}
+	</script>
+</head>
+<body>
+<form>
+	<h1>Sum of Array values</h1>
+	<input type="button" onclick="test()" value="show output">
+<h3><div id="res"></div></h3>
+</form></body></html>

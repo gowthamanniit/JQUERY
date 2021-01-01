@@ -1,0 +1,41 @@
+looping:
+========
+	def:
+	a particular statement executes no. of times.
+
+	--> again and again execute same statemtent(s).
+
+types of loopging:
+	
+	1) for loop	
+	2) whiel loop
+	3) do while loop
+	4) nested loop
+
+advantages of looping:
+======================
+	-> code length reduce
+	-> time save
+
+syntax:(for loop)
+=================
+
+for(initialization;condition;inc/dec)
+{
+	statement;
+}
+
+ex:
+	
+for(i=1;i<=10;i++)
+{
+	document.write(i);
+}
+
+output: 1 2 3 4 5 6..10
+
+step 1: initialzation(i=1)
+step 2: condition(i<10   1<=10 -->true step3
+		          false  -->terminate loop)
+step 3: print 1 2 3
+step 4: increment i++ i=2, goto step 2

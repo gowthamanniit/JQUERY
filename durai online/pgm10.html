@@ -1,0 +1,27 @@
+<!doctype html>	
+<html>
+	<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+	function test()
+	{
+	var n=parseInt(document.getElementById("tb1").value);
+	var i,ans="",sum=0;
+	for(i=n;i>1;i--)
+	{
+		ans=ans+i+"+";
+		sum=sum+i;
+	}
+	ans=ans+i+" = "+(sum+i);
+	document.getElementById("res").innerHTML=ans;
+	}
+	</script>
+</head>
+<body>
+<form>
+	<h1>sum of series using for loop</h1>
+	Enter N value:<input type="text" id="tb1">
+	<br>
+	<input type="button" onclick="test()" value="show output">
+<h3><div id="res"></div></h3>
+</form></body></html>

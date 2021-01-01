@@ -1,0 +1,32 @@
+<!doctype html>	
+<html>
+	<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+	var r,sum,digit;
+	function test()
+	{
+	sum=0;
+	digit=0;
+	var k=parseInt(document.getElementById("n1").value);	
+	while(k!=0)  // 125    12  1
+	{
+		r=k%10;   // 5  2  1
+		k=parseInt(k/10);   // 12 1  0		
+		sum=sum+r;
+		digit++;
+	}	
+	document.getElementById("n2").value=sum;
+	document.getElementById("n3").value=digit;
+	}
+	</script>
+</head>
+<body>
+	<form>
+	<h1> sum of digits</h1>
+	Enter number:<input type="text" id="n1"><br>
+	<input type="button" value="find sum of digits" onclick="test()"><br>
+	Sum of digits:<input type="text" id="n2"><br>
+	total  digits:<input type="text" id="n3"><br>
+	</form>
+</body></html>

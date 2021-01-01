@@ -1,0 +1,22 @@
+events:
+========
+	1) click       -- only left click once
+	2) dblclick    -- only left click twice
+	3) mouseenter  -- move mouse over the form item
+	4) mouseleave  -- release time 
+	5) mousedown   -- left click, right click, middle click (scroll)
+	6) mouseup     -- release left,middle,right
+	7) hover       -- mousedown + mouseup
+
+	syntax:
+
+	$(".....").hover(arg1,arg2);
+
+
+	arg1 -- > mousedown-click
+	arg2 -- > mouseup-release
+
+
+	8) focus       -- cursor enter the textbox	
+	9) blur	       -- cursor loses the textbox
+	10) on         -- apply all event methods

@@ -1,0 +1,26 @@
+jumping statement:
+==================
+	def: execution statement move to one place to another place.	
+
+	types:
+	
+	1) break;
+	2) continue;
+
+1) break;
+	--> only terminate the loop.
+2) continue;
+	-->skip the below statement in loop.	
+	-->move to increment position.
+	  (for loop)
+	-->move to condition
+	  (while or do..while)
+
+
+
+
+		
+
+
+			
+	

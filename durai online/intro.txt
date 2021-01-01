@@ -1,0 +1,22 @@
+script validation:
+=================
+
+general format:
+	<html>
+	<head>
+	<title>............</title>
+	<script type="text/javascript">
+	function functionname()
+	{
+	// ... write code here
+	}
+	</script>
+	</head>
+	<body>
+	<form>
+	//....write html form coding
+
+	... textbox,button,....
+	</form>
+	</body>
+	</html>
