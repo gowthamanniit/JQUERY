@@ -3,6 +3,8 @@ http://code.jquery.com/jquery-1.8.3.js
 
 http://code.jquery.com/jquery-3.3.1.min.js   // latest link
 
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
 how to use in program?
 ======================
 <SCRIPT type="text/javascript" src="jquery-1.8.3.js"></SCRIPT>
